@@ -1,0 +1,16 @@
+Source: bbdb
+Section: mail
+Priority: optional
+Maintainer: Debian Emacsen team <debian-emacsen@lists.debian.org>
+Uploaders: David Bremner <bremner@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.0
+Vcs-Git: https://salsa.debian.org/emacsen-team/bbdb.git
+Vcs-Browser: https://salsa.debian.org/emacsen-team/bbdb
+Homepage: http://savannah.nongnu.org/projects/bbdb/
+
+Package: bbdb
+Architecture: all
+Depends: bbdb3, ${misc:Depends}
+Description: The Insidious Big Brother Database (email rolodex) for Emacs
+ This is a transitional package and maybe safely deleted.

@@ -1,0 +1,6 @@
+bbdb (3.0.1) unstable; urgency=medium
+
+  * This package is now a dependency package installing bbdb3
+
+ -- David Bremner <bremner@debian.org>  Mon, 23 Sep 2019 20:01:03 -0300
+
